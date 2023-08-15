@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    height: auto;
+    width: 98vw;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 400px 1fr 50px;
+    background-color: rgb(255, 255, 255);  
+    grid-gap:5px;
+    
+}
+
+.start{
+    display:flex;
+    justify-content:center;
+  align-items: center;
+ 
+}
+.start span{
+    padding-left:50px;
+    color:black;
+}
+.items span{
+    padding-left: 30px;
+}
+.start a{
+    text-decoration: none;
+    color:rgb(244, 51, 151);
+    font-weight: 800;
+}
+.items a{
+    text-decoration: none;
+
+    color:rgb(133, 130, 130);
+    font-size: small;
+    font-weight: 500;
+}
+a:hover{
+    color:rgb(26, 164, 250);
+ 
+}
+input{
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 5px; 
+    height:30px;
+    width: 300px;
+}
+.search{
+    padding-left:60px;
+}
+.items{
+    display:flex;
+    justify-content: center;
+}
+button{
+background-color:rgb(141, 70, 216);
+color:white;
+border:2px solid rgb(244, 51, 151);
+border-radius:4px;
+}
+button:hover{
+    box-shadow: 0 0 2px 2px rgb(204, 198, 198);
+}
+.contact {
+	padding: 20px;
+}
+
+.contact .content {
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+.content .title {
+	width: 80%;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 40px;
+}
+
+.title {
+	margin-bottom: 30px;
+	margin-left: 80px;
+}
+
+.contactMenu {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.input2 {
+	margin-top: 10;
+}
+
+.label1 {
+	font-size: 18px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-weight: bolder;
+}
+
+.contactMenu .input1 input {
+	border-radius: 13px;
+	padding: 6px;
+}
+
+.input2 input {
+	border-color: rgb(252, 244, 244);
+	width: 400px;
+}
+
+.button {
+	margin-top: 12px;
+	margin-left: 5px;
+}
+
+.button button {
+	width: 162px;
+	height: 35px;
+	border-radius: 12px;
+	border-color: transparent;
+}
+
+
+button {
+	width: 162px;
+	height: 35px;
+	border-radius: 12px;
+	border-color: transparent;
+}
+
+
+.rightside1 {
+	display: flex;
+	flex-direction: column;
+	margin-left: 300px;
+}
+
+.title1 {
+	font-size: 18px;
+	margin-top: 8px;
+	margin-bottom: 5px;
+	font-weight: bolder;
+}
+
+.content1 {
+	width: 450px;
+	margin-top: 2px;
+	color: black;
+}
+#main{
+   
+       background-image: url("https://www.shutterstock.com/image-vector/creative-beautiful-woman-logo-gradient-color-1798549858");
+       background-size: cover;
+      background-repeat: no-repeat;
+      box-shadow: 0 0 7px 3px rgb(254, 223, 229);
+      overflow: hidden;
+}
+#card{
+    margin-top: 2%;
+   
+    width:100%;
+ box-shadow: 0 0 6px 2px rgb(253, 228, 233);
+ padding-bottom: 4%;
+ background-color: rgb(255, 248, 250);
+ 
+}
+h2{
+    
+    text-align:center;
+}
+h2:hover{
+    color: rgb(0, 150, 215);
+}
+#img{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+.img1{
+    margin-left:20px;
+    margin-right: 20px;
+    box-shadow:0 0 3px 3px rgb(221, 218, 218) ;
+   border-radius: 3px;
+   color: rgb(172, 11, 212);
+
+}
+figcaption{
+    text-align: center;
+}
+.img1:hover{
+    box-shadow:0 0 3px 5px rgb(221, 218, 218) ;
+
+}
+#footer{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+    background-color: black;
+    color:white;
+    font-size:large;
+    font-style: italic;
+}
